@@ -47,10 +47,27 @@ The application is structured into simple layers:
 
 ## Project Structure
 
-TransactionIngest │ ├── Data │ └── AppDbContext.cs │ ├── Models │ ├──
-Transaction.cs │ └── TransactionAudit.cs │ ├── Services │ ├──
-MockApiService.cs │ └── TransactionService.cs │ ├── mockdata.json ├──
-Program.cs ├── TransactionIngest.csproj
+TransactionIngest
+│
+├── Data
+│
+└── AppDbContext.cs
+│
+├── Models
+│
+├── Transaction.cs
+│
+└── TransactionAudit.cs
+│
+├── Services
+│
+├── MockApiService.cs
+│
+└── TransactionService.cs
+│
+├── mockdata.json
+├── Program.cs
+├── TransactionIngest.csproj
 
 ---
 
