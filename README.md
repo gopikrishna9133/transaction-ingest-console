@@ -50,20 +50,15 @@ The application is structured into simple layers:
 TransactionIngest
 │
 ├── Data
-│
-└── AppDbContext.cs
+│ └── AppDbContext.cs
 │
 ├── Models
-│
-├── Transaction.cs
-│
-└── TransactionAudit.cs
+│ ├── Transaction.cs
+│ └── TransactionAudit.cs
 │
 ├── Services
-│
-├── MockApiService.cs
-│
-└── TransactionService.cs
+│ ├── MockApiService.cs
+│ └── TransactionService.cs
 │
 ├── mockdata.json
 ├── Program.cs
