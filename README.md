@@ -78,17 +78,23 @@ TransactionIngest
 
 ## How to Run
 
-Restore dependencies:
+- Restore dependencies:
 
+```
 dotnet restore
+```
 
-Build the application:
+- Build the application:
 
+```
 dotnet build
+```
 
-Run the program:
+- Run the program:
 
+```
 dotnet run
+```
 
 When executed, the application will read transaction data from
 `mockdata.json`, process it, and store results in a SQLite database.
