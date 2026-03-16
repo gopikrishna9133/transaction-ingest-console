@@ -47,6 +47,7 @@ The application is structured into simple layers:
 
 ## Project Structure
 
+```
 TransactionIngest
 │
 ├── Data
@@ -63,6 +64,7 @@ TransactionIngest
 ├── mockdata.json
 ├── Program.cs
 ├── TransactionIngest.csproj
+```
 
 ---
 
